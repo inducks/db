@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_subseries`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_subseries` (
-  `subseriescode` varchar(49) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `subseriescode` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `subseriesname` varchar(54) COLLATE utf8_unicode_ci DEFAULT NULL,
   `official` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
   `subseriescomment` varchar(285) COLLATE utf8_unicode_ci DEFAULT NULL,
