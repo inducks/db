@@ -28,7 +28,7 @@ CREATE TABLE `inducks_log` (
   `logtype` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
   `par1` varchar(1847) COLLATE utf8_unicode_ci DEFAULT NULL,
   `par2` varchar(1846) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `par3` varchar(366) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `par3` varchar(285) COLLATE utf8_unicode_ci DEFAULT NULL,
   `marked` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
   `inputfilecode` int(7) DEFAULT NULL,
   `maintenanceteamcode` varchar(8) COLLATE utf8_unicode_ci DEFAULT NULL,

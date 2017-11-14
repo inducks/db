@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `inducks_moviecharacter`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_moviecharacter` (
   `moviecode` varchar(13) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `charactercode` varchar(35) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(36) COLLATE utf8_unicode_ci DEFAULT NULL,
   `istitlecharacter` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`moviecode`,`charactercode`),
   KEY `fk0` (`charactercode`)

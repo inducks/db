@@ -21,9 +21,9 @@ DROP TABLE IF EXISTS `inducks_characterurl`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_characterurl` (
-  `charactercode` varchar(18) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `sitecode` varchar(11) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `url` varchar(13) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sitecode` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `url` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`charactercode`,`sitecode`),
   KEY `fk0` (`sitecode`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

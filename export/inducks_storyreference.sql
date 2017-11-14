@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_storyreference`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_storyreference` (
-  `fromstorycode` varchar(23) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `fromstorycode` varchar(18) COLLATE utf8_unicode_ci DEFAULT NULL,
   `tostorycode` varchar(17) COLLATE utf8_unicode_ci DEFAULT NULL,
   `referencereasonid` int(7) DEFAULT NULL,
   KEY `pk0` (`fromstorycode`,`tostorycode`),

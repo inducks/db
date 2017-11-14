@@ -28,6 +28,7 @@ CREATE TABLE `inducks_person` (
   `personcomment` varchar(221) COLLATE utf8_unicode_ci DEFAULT NULL,
   `unknownstudiomember` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
   `isfake` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
+  `numberofindexedissues` int(7) DEFAULT NULL,
   `birthname` text COLLATE utf8_unicode_ci,
   `borndate` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `bornplace` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL,
