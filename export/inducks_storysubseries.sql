@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_storysubseries`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_storysubseries` (
-  `storycode` varchar(16) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `storycode` varchar(18) COLLATE utf8_unicode_ci DEFAULT NULL,
   `subseriescode` varchar(144) COLLATE utf8_unicode_ci DEFAULT NULL,
   `storysubseriescomment` varchar(23) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`storycode`,`subseriescode`),

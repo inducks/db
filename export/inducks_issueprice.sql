@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_issueprice`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_issueprice` (
-  `issuecode` varchar(16) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `issuecode` varchar(17) COLLATE utf8_unicode_ci DEFAULT NULL,
   `amount` varchar(43) COLLATE utf8_unicode_ci DEFAULT NULL,
   `currency` varchar(14) COLLATE utf8_unicode_ci DEFAULT NULL,
   `comment` varchar(64) COLLATE utf8_unicode_ci DEFAULT NULL,
