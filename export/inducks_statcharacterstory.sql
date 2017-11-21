@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_statcharacterstory`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_statcharacterstory` (
-  `charactercode` varchar(38) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `productionletter` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
   `total` int(7) DEFAULT NULL,
   `yearrange` varchar(102) COLLATE utf8_unicode_ci DEFAULT NULL,

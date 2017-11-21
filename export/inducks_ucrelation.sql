@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `inducks_ucrelation`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_ucrelation` (
   `universecode` varchar(28) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `charactercode` varchar(38) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`universecode`,`charactercode`),
   KEY `fk0` (`charactercode`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

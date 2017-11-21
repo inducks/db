@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_character`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_character` (
-  `charactercode` varchar(69) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(87) COLLATE utf8_unicode_ci DEFAULT NULL,
   `charactername` text COLLATE utf8_unicode_ci,
   `official` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,
   `onetime` enum('Y','N') COLLATE utf8_unicode_ci DEFAULT NULL,

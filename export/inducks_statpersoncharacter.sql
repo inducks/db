@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `inducks_statpersoncharacter`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_statpersoncharacter` (
   `personcode` varchar(31) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `charactercode` varchar(38) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `total` int(7) DEFAULT NULL,
   `yearrange` varchar(101) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`personcode`,`total`)

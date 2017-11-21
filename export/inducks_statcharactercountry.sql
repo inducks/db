@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_statcharactercountry`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_statcharactercountry` (
-  `charactercode` varchar(38) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `countrycode` varchar(2) COLLATE utf8_unicode_ci DEFAULT NULL,
   `total` int(7) DEFAULT NULL,
   KEY `pk0` (`charactercode`,`countrycode`)
