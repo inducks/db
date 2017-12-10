@@ -26,7 +26,7 @@ CREATE TABLE `inducks_entry` (
   `storyversioncode` varchar(19) COLLATE utf8_unicode_ci DEFAULT NULL,
   `languagecode` varchar(7) COLLATE utf8_unicode_ci DEFAULT NULL,
   `includedinentrycode` varchar(19) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `position` varchar(8) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `position` varchar(9) COLLATE utf8_unicode_ci DEFAULT NULL,
   `printedcode` varchar(88) COLLATE utf8_unicode_ci DEFAULT NULL,
   `guessedcode` varchar(39) COLLATE utf8_unicode_ci DEFAULT NULL,
   `title` varchar(235) COLLATE utf8_unicode_ci DEFAULT NULL,
