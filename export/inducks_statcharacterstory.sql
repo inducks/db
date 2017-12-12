@@ -24,7 +24,7 @@ CREATE TABLE `inducks_statcharacterstory` (
   `charactercode` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `productionletter` varchar(1) COLLATE utf8_unicode_ci DEFAULT NULL,
   `total` int(7) DEFAULT NULL,
-  `yearrange` varchar(102) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `yearrange` varchar(105) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`charactercode`,`productionletter`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
