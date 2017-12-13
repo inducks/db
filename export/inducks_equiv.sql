@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS `inducks_equiv`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_equiv` (
-  `issuecode` varchar(31) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `issuecode` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,
   `equivid` int(7) DEFAULT NULL,
   `equivcomment` varchar(2) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`issuecode`,`equivid`),
