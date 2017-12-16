@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `inducks_appearance`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `inducks_appearance` (
   `storyversioncode` varchar(19) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `charactercode` varchar(87) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `charactercode` varchar(62) COLLATE utf8_unicode_ci DEFAULT NULL,
   `number` int(7) DEFAULT NULL,
   `appearancecomment` varchar(209) COLLATE utf8_unicode_ci DEFAULT NULL,
   KEY `pk0` (`storyversioncode`,`charactercode`),
